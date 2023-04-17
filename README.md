@@ -1,4 +1,4 @@
-# B-tree
+# Árvore B em disco
 
 Esta é uma implementação da estrutura de dados Árvore B em disco.
 
