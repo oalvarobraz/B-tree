@@ -57,47 +57,6 @@ void MENU(FILE *arq, bTree *tree, queue *q0) {
                 system("PAUSE");
                 system("cls");
                 break;
-            /*case 2:
-                system("cls");
-                printf("\n|| BUSCANDO VARIOS FUNCIONARIOS ||\n");
-                for (int i = 1; i <= 20; i++) {
-                    codigo = 1 + (rand() % 5500);
-                    func ke2 = {.codigo = codigo};
-                    printf("\n\n********************************************************************************************");
-                    printf("\n|| Codigo do funcionario: %d\n\n", codigo);
-                    int search2 = pesquisar(tree->root, tree->order, ke2, arq);
-                    if (search2 != -1) {
-                        imprimir_func(*tree, ke2, arq);
-                        printf("\n\n********************************************************************************************");
-                    } else {
-                        printf("Funcionario nao encontrado.\n");
-                        printf("\n\n********************************************************************************************");
-                    }
-                }
-
-                printf("\n");
-                system("PAUSE");
-                system("cls");
-
-                break;
-            case 3:
-                system("cls");
-                printf("\n|| REMOVENDO FUNCIONARIOS ||\n");
-                int i = 1;
-                while (i<20) {
-                    codigo = i + 10 * i;
-                    func ke_remove = {.codigo = codigo};
-                    int removed = remover(tree, ke_remove, arq);
-                    if (removed == 1) {
-                        printf("|| Funcionario de codigo %d removido com sucesso!\n", codigo);
-                    } else
-                        printf("|| Funcionario de codigo %d nao esta na arvore!\n", codigo);
-                    i++;
-                }
-                printf("\n");
-                system("PAUSE");
-                system("cls");
-                break;*/
             case 2:
                 system("cls");
                 printf("\n|| BUSCANDO FUNCIONARIO ||\n");
